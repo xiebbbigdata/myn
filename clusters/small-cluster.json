@@ -1,0 +1,19 @@
+{
+    "num_workers": 0,
+    "cluster_name": "Small",
+    "spark_version": "10.5.x-cpu-ml-scala2.12",
+    "spark_conf": {
+        "spark.master": "local[*, 4]",
+        "spark.databricks.cluster.profile": "singleNode",
+        "spark.databricks.delta.preview.enabled": "true"
+    },
+    "node_type_id": "Standard_DS3_v2",
+    "driver_node_type_id": "Standard_DS3_v2",
+    "ssh_public_keys": [],
+    "custom_tags": {},
+    "spark_env_vars": {},
+    "autotermination_minutes": 30,
+    "enable_elastic_disk": true,
+    "cluster_source": "UI",
+    "init_scripts": []
+}
