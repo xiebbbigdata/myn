@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "workspaceName": {
-        "value": "databricks-devops-dev"
+        "value": "MYN-databricks-Dev"
       },
       "pricingTier": {
         "value": "premium"
